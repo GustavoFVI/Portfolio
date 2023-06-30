@@ -1,17 +1,20 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
-    text-align: justify;    
-    
-    }
-    html,body{
-        height: 100%;
-        overflow-y: hidden;
-    }
-    .box{
+    text-align: justify;
+
+}
+
+html,
+body {
+    height: 100%;
+    overflow-y: hidden;
+}
+
+.box {
     background-color: rgba(0, 0, 0, 0.60);
     font-size: 1.3em;
     color: whitesmoke;
@@ -22,19 +25,20 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    }
-    p{
-       text-align: justify;
-       text-indent: 50px;
-    
-    }
-        
-    #fundo{
-        width: 100vw;
-        height: 100vh;
-        background-image: url(../Background/fundo.jpeg);
-        -webkit-background-size: cover;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position:center center;
-    }
+}
+
+p {
+    text-align: justify;
+    text-indent: 50px;
+
+}
+
+#fundo {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../Background/fundo.jpeg);
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
