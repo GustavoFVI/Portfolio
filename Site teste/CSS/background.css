@@ -1,0 +1,13 @@
+*{
+    padding: 0px;
+    margin: 0px;    
+    }
+        
+   .fundo{
+        height: 100vh;
+        background-image: url(../Background/fundo.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:center;
+        filter: blur(4px);
+    }
