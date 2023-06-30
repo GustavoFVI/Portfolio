@@ -6,10 +6,13 @@
     font-size: 15px;
     text-align: justify;
 }
-html,body {
+
+html,
+body {
     height: 100%;
     overflow-y: hidden;
 }
+
 .box {
     background-color: rgba(0, 0, 0, 0.60);
     font-size: 1.3em;
@@ -22,11 +25,12 @@ html,body {
     top: 50%;
     transform: translate(-50%, -50%);
 }
+
 p {
     text-align: justify;
     text-indent: 50px;
-
 }
+
 #fundo {
     width: 100vw;
     height: 100vh;
@@ -36,6 +40,7 @@ p {
     background-size: cover;
     background-position: center center;
 }
+
 :root {
     --color-white: white;
     --color-dark1: #272727;
@@ -43,6 +48,7 @@ p {
     --color-dark3: #414141;
     --color-dark4: #1c1c1c;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -51,9 +57,11 @@ p {
 body {
     background-color: var(--color-dark1);
 }
+
 .logo_header {
     width: 30px;
 }
+
 .header {
     text-transform: uppercase;
     background-color: var(--color-dark2);
